@@ -8,18 +8,18 @@ double change_height(int cm)
 }
 
 void sum(double a, double b) {
-	printf("µÎ ½Ç¼öÀÇ ÇÕ : %.2f\n", a + b);
+	printf("ë‘ ì‹¤ìˆ˜ì˜ í•© : %.2f\n", a + b);
 }
 
 void avg(double a, double b) {
-	printf("µÎ ½Ç¼öÀÇ Æò±Õ : %.2f\n", (a + b) / 2);
+	printf("ë‘ ì‹¤ìˆ˜ì˜ í‰ê·  : %.2f\n", (a + b) / 2);
 }
 
 void sum_avg(double a, double b, char op) {
 	if (op == '+')
-		printf("µÎ ½Ç¼öÀÇ ÇÕ : %.2f\n", a + b);
+		printf("ë‘ ì‹¤ìˆ˜ì˜ í•© : %.2f\n", a + b);
 	else if (op == '#')
-		printf("µÎ ½Ç¼öÀÇ Æò±Õ : %.2f\n", (a + b) / 2);
+		printf("ë‘ ì‹¤ìˆ˜ì˜ í‰ê·  : %.2f\n", (a + b) / 2);
 	else
 		return;
 }
@@ -76,52 +76,52 @@ int main() {
 
 	while (1) {
 		int menu;
-		printf("¹®Á¦ ¹øÈ£ ÀÔ·Â(Á¾·á 0) : ");
+		printf("ë¬¸ì œ ë²ˆí˜¸ ì…ë ¥(ì¢…ë£Œ 0) : ");
 		scanf_s(" %d", &menu, 100);
 		if (menu == 1)
 		{
-			//1¹ø
+			//1ë²ˆ
 			int height;
-			printf("Å° ÀÔ·Â(Cm) : ");
+			printf("í‚¤ ì…ë ¥(Cm) : ");
 			scanf_s("%d", &height, 100);
-			printf("Å°(M) : %.2f\n", change_height(height));
+			printf("í‚¤(M) : %.2f\n", change_height(height));
 		}
 		else if (menu == 2)
 		{
-			//2¹ø
+			//2ë²ˆ
 			double m, n;
-			printf("µÎ ½Ç¼ö ÀÔ·Â : ");
+			printf("ë‘ ì‹¤ìˆ˜ ì…ë ¥ : ");
 			scanf_s("%lf %lf", &m, &n, 100);
 			sum(m, n);
 			avg(m, n);
 		}
 		else if (menu == 3) {
-			//3¹ø
+			//3ë²ˆ
 			double x, y;
 			char op;
-			printf("¿¬»êÀÚ ÀÔ·Â(+ or #) : ");
+			printf("ì—°ì‚°ì ì…ë ¥(+ or #) : ");
 			scanf_s(" %c", &op, 1);
-			printf("µÎ ½Ç¼ö ÀÔ·Â : ");
+			printf("ë‘ ì‹¤ìˆ˜ ì…ë ¥ : ");
 			scanf_s("%lf %lf", &x, &y, 100);
 			sum_avg(x, y, op);
 		}
 		else if (menu == 4) {
-			//4¹ø
+			//4ë²ˆ
 			int s;
-			printf("Á¤¼ö ÀÔ·Â : ");
+			printf("ì •ìˆ˜ ì…ë ¥ : ");
 			scanf_s(" %d", &s);
 			while_sum(s);
 		}
 		else if (menu == 5) {
-			//5¹ø
+			//5ë²ˆ
 			int k;
-			printf("Á¤¼ö ÀÔ·Â : ");
+			printf("ì •ìˆ˜ ì…ë ¥ : ");
 			scanf_s(" %d", &k);
 			repeat_sum(k);
 			printf("%d\n", rec_sum(k));
 		}
 		else if (menu == 6) {
-			//6¹ø
+			//6ë²ˆ
 			int a = 100;
 
 			int* p = &a;
@@ -131,12 +131,12 @@ int main() {
 			printf("%d\n", a);
 
 			printf("%d\n", (*p) + a);
-			//aÀÇ ÁÖ¼Ò¸¦ ÂüÁ¶ÇÏ°í ÀÖ´Â pÀÇ °ªÀÌ 200ÀÌ µÇ¾î aÀÇ °ªµµ 200À¸·Î ¹Ù²î°í µÎ º¯¼ö¸¦ ´õÇÑ °ªÀº 400ÀÌ Ãâ·Â
+			//aì˜ ì£¼ì†Œë¥¼ ì°¸ì¡°í•˜ê³  ìˆëŠ” pì˜ ê°’ì´ 200ì´ ë˜ì–´ aì˜ ê°’ë„ 200ìœ¼ë¡œ ë°”ë€Œê³  ë‘ ë³€ìˆ˜ë¥¼ ë”í•œ ê°’ì€ 400ì´ ì¶œë ¥
 
 		}
 		else if (menu == 7) {
 
-			//7¹ø
+			//7ë²ˆ
 			int a = 100;
 
 			int* p = &a;
@@ -146,10 +146,10 @@ int main() {
 			//pd = p;
 
 			//printf("%lf", *pd);
-			//p´Â ÀÎÆ®Çü º¯¼öÀÌ°í pd´Â ´õºíÇü ÀÌ¹Ç·Î ¿À·ù°¡ ¹ß»ı
+			//pëŠ” ì¸íŠ¸í˜• ë³€ìˆ˜ì´ê³  pdëŠ” ë”ë¸”í˜• ì´ë¯€ë¡œ ì˜¤ë¥˜ê°€ ë°œìƒ
 		}
 		else if (menu == 8) {
-			//8¹ø
+			//8ë²ˆ
 			int x = 5;
 			int y = 6;
 			swap(x, y);
@@ -160,22 +160,22 @@ int main() {
 			printf("%d %d\n", xx, yy);
 		}
 		else if (menu == 9) {
-			//9¹ø
+			//9ë²ˆ
 			double x, y;
 			char op;
-			printf("½Ç¼ö µÎ°³ ÀÔ·Â : ");
+			printf("ì‹¤ìˆ˜ ë‘ê°œ ì…ë ¥ : ");
 			scanf_s(" %lf %lf", &x, &y, 100);
-			printf("¿¬»êÀÚ ÀÔ·Â : ");
+			printf("ì—°ì‚°ì ì…ë ¥ : ");
 			scanf_s(" %c", &op, 1);
 			printf("%.2f\n", po_sum_avg(x, y, op));
 		}
 		else if (menu == 0)
 		{
-			printf("Á¾·áÇÕ´Ï´Ù\n");
+			printf("ì¢…ë£Œí•©ë‹ˆë‹¤\n");
 			break;
 		}
 		else
-			printf("´Ù½ÃÀÔ·ÂÇÏ¼¼¿ä!\n");
+			printf("ë‹¤ì‹œì…ë ¥í•˜ì„¸ìš”!\n");
 			
 	}
 	
