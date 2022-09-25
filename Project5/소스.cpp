@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 double change_height(int cm)
 {
@@ -179,4 +179,4 @@ int main() {
 			
 	}
 	
-}
+}*/
