@@ -1,40 +1,30 @@
-/*#include <stdio.h>
 #include <string.h>
 
 int main() {
-    /*int arr[3]; // arrÀÇ »çÀÌÁî´Â 12
-
-    int *pa = arr; // paÀÇ »çÀÌÁî´Â 4
-
-    printf("%d %d", sizeof(arr), sizeof(pa));
-
-    int arr[3];
-
-    int *pa = arr;
 
 
 
-    pa = pa + 1;
-
-    printf("%u ", pa); // (arr+1)ÀÇ ÁÖ¼Ò°ªÀÌ ³ª¿È
 
 
 
-    //arr = arr + 1;
 
-    printf("%u ", arr + 1); // (arr+1)ÀÇ ÁÖ¼Ò°ªÀÌ ³ª¿È
+
+
+
+
+
 
     double arrd[4] = { 12.4, 23.1, 15.7, 31.2 };
 
     double* pb = arrd;
 
     for (int i = 0; i < sizeof(arrd) / sizeof(double); i++)
-        printf("%.1f ", *(pb + i)); //¼ø¼­´ë·Î pbÀÇ °ªÀ» Ãâ·Â
+        printf("%.1f ", *(pb + i)); //?œì„œ?€ë¡?pb??ê°’ì„ ì¶œë ¥
     printf("\n");
 
     const char* p = "banana";
-    for (int i = 0; i < strlen(p); i++) { //pÀÇ ±æÀÌ¸¸Å­ ¹İº¹ÇÑ´Ù(6¹ø Ãâ·ÂÇÏ±â À§ÇØ)
-        for (int j = i; j < strlen(p); j++) // i¹øÂ°ºÎÅÍ pÀÇ ±æÀÌ¸¸Å­ ¹İº¹ÇÑ´Ù
+    for (int i = 0; i < strlen(p); i++) { //p??ê¸¸ì´ë§Œí¼ ë°˜ë³µ?œë‹¤(6ë²?ì¶œë ¥?˜ê¸° ?„í•´)
+        for (int j = i; j < strlen(p); j++) // ië²ˆì§¸ë¶€??p??ê¸¸ì´ë§Œí¼ ë°˜ë³µ?œë‹¤
             printf("%c", p[j]);
         printf("\n");
     }
@@ -42,9 +32,7 @@ int main() {
     char s1[] = "computerprogramming";
     for (int i = 0; i < sizeof(s1) / sizeof(char); i++)
         if (s1[i] == 'e')
-            printf("Ã³À½À¸·Î e°¡ ³ª¿Â À§Ä¡´Â %dÀÔ´Ï´Ù.\n", i);
+            printf("ì²˜ìŒ?¼ë¡œ eê°€ ?˜ì˜¨ ?„ì¹˜??%d?…ë‹ˆ??\n", i);
     const char* s = "computerprogramming";
-    for (int i = 0; i < sizeof(s) / sizeof(char); i++)
         if (s[i] == 'e')
-            printf("Ã³À½À¸·Î e°¡ ³ª¿Â À§Ä¡´Â %dÀÔ´Ï´Ù.\n", i);
-}*/
+            printf("ì²˜ìŒ?¼ë¡œ eê°€ ?˜ì˜¨ ?„ì¹˜??%d?…ë‹ˆ??\n", i);

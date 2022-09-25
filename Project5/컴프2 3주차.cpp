@@ -1,4 +1,3 @@
-/*#include <stdio.h>
 
 void swap(int x, int y) {
 	int temp = x;
@@ -48,4 +47,3 @@ int main() {
 	for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
 		arr[i] = i + 1;
 	printArr(arr);
-}*/
