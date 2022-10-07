@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+﻿/*#include <stdio.h>
 #include <string.h>
 #pragma warning(disable: 4996)
 
@@ -45,4 +45,4 @@ int main() {
 	count(str1, str2, &cnt1, &cnt2);
 	printf("첫번째 단어 모음 수 : %d", cnt1);
 	printf("두번째 단어 모음 수 : %d", cnt2);
-}
+}*/

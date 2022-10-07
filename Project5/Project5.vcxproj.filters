@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="컴프2 2주차.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -25,6 +22,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="컴프2 4주차.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="컴프2 6주차 과제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="컴프2 1주차 과제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

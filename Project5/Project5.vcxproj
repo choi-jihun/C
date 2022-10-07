@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="컴프2 1주차 과제.cpp" />
     <ClCompile Include="컴프2 4주차.cpp" />
     <ClCompile Include="컴프2 2주차.cpp" />
     <ClCompile Include="컴프2 3주차.cpp" />
+    <ClCompile Include="컴프2 6주차 과제.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
