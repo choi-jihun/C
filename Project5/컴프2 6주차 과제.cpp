@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>  // rand()함수를 포함하는 라이브러리
 #include <time.h>   // time()함수를 포함하는 라이브러리
 #include <string.h>
@@ -69,4 +69,4 @@ int main(void) {
 			printf("다시입력하세요,\n");
 	}
 	printf("게임의 결과 : %d승, %d무\n", win, draw);
-}
+}*/
