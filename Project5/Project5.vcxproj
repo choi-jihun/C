@@ -132,6 +132,10 @@
     <ClCompile Include="컴프2 3주차.cpp" />
     <ClCompile Include="컴프2 6주차 과제.cpp" />
     <ClCompile Include="컴프2 7주차 과제.cpp" />
+    <ClCompile Include="컴프2 9주차 과제.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="컴프2 9주차 과제.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

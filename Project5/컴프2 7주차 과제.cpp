@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
 void find_name_age(char* buffer, char* name, char* age) {
@@ -40,5 +40,5 @@ int main() {
 	gets_s(buffer, sizeof(buffer));
 	find_name_age(buffer, name2, age2);
 	cmp_name_age(name1, name2, age1, age2);
-}
+}*/
 
