@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="컴프2 10주차 과제.cpp" />
     <ClCompile Include="컴프2 4주차.cpp" />
     <ClCompile Include="컴프2 2주차.cpp" />
     <ClCompile Include="컴프2 3주차.cpp" />

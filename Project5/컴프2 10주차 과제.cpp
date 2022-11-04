@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 #pragma warning(disable:4996)
 
@@ -38,7 +38,7 @@ int main() {
 	dict dic;
 	dic.cnt = 0;
 	while (1) {
-		printf("종료 : 0 단어 검색 : 1\n");
+		printf("종료(파일에 저장) : 0 단어 검색 : 1\n");
 		printf("메뉴 입력 : ");
 		scanf("%d", &menu);
 		char find[20];
@@ -48,10 +48,15 @@ int main() {
 			dic = find_word(dic, find);
 		}
 		else if (menu == 0) {
+			FILE* fp = fopen("dictionary.txt", "w");
+			for (int i = 0; i < dic.cnt; i++) {
+				fprintf(fp, "단어 : %s, 뜻 : %s\n", dic.dictionary[i].word, dic.dictionary[i].meaning);
+			}
+			fclose(fp);
 			printf("종료합니다.\n");
 			break;
 		}
 		else
 			printf("다시 입력하세요.\n");
 	}
-}*/
+}
