@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 #pragma warning(disable:4996)
 
@@ -59,4 +59,4 @@ int main() {
 		else
 			printf("다시 입력하세요.\n");
 	}
-}
+}*/
